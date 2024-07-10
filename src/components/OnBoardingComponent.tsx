@@ -1,4 +1,5 @@
 import { useOnboarding } from '../context/OnboardingContext';
+import NavigationButton from './ui-components/NavigationButton';
 
 interface OnBoardingComponentProps {
     steps: {title: string, component: JSX.Element}[]
@@ -11,14 +12,15 @@ const OnBoardingComponent = ({steps}: OnBoardingComponentProps) => {
     {steps[step].component}
     {step === 0 ?  
      <div className="flex flex-col items-center text-center space-y-6 p-6">
-        <button onClick={handleNextStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">
-        Start Your Journey
-        </button>
+        <NavigationButton onClick={handleNextStep} label="Start Your Journey" />
     </div> : 
      <div className="flex justify-between">
-     {step > 0 && <button  onClick={handlePrevStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">Back</button>}
-     {step < steps.length - 1 && <button onClick={handleNextStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">Next</button>}
-   </div>
+      {step > 0 && (
+            <NavigationButton onClick={handlePrevStep} label="Back" />
+        )}
+        {step < steps.length - 1 && (
+            <NavigationButton onClick={handleNextStep} label="Next" />
+        )}</div>
    }
   </>
   )
