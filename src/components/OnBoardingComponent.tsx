@@ -8,7 +8,6 @@ const OnBoardingComponent = ({steps}: OnBoardingComponentProps) => {
 
   return (
     <>
-    {/* <h1 className="text-xl font-bold">{steps[step].title}</h1> */}
     {steps[step].component}
     {step === 0 ?  
      <div className="flex flex-col items-center text-center space-y-6 p-6">
@@ -17,11 +16,10 @@ const OnBoardingComponent = ({steps}: OnBoardingComponentProps) => {
         </button>
     </div> : 
      <div className="flex justify-between">
-     {step > 0 && <button onClick={handlePrevStep} className="btn">Back</button>}
-     {step < steps.length - 1 && <button onClick={handleNextStep} className="btn">Next</button>}
+     {step > 0 && <button  onClick={handlePrevStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">Back</button>}
+     {step < steps.length - 1 && <button onClick={handleNextStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">Next</button>}
    </div>
    }
-   
   </>
   )
 }

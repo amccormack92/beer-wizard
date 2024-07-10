@@ -14,9 +14,6 @@ const Welcome = () => {
     <p className="text-lg text-gray-700">
       Discover new beers, find your favorites, and explore the world of craft brewing with us.
     </p>
-    {/* <button onClick={handleNextStep} className="mt-4 px-6 py-3 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300">
-      Start Your Journey
-    </button> */}
   </div>
   )
 }
