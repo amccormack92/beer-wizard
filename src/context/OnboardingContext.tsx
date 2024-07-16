@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState } from "react";
 import { getNextStep, getPrevStep } from "../utils/NavigationUtils";
 import * as yup from "yup";

@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# React Beer Onboarding Widget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based onboarding widget designed to showcase skills in React, TypeScript, and Tailwind CSS. The widget allows users to go through a multi-step process, selecting their beer preferences and getting a promo for a partner brewery. This project is designed for a GitHub portfolio.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Multi-step onboarding process
+- Beer preferences selection with images
+- Promo for a partner brewery using the Open Brewery DB API
+- State management with Context API
+- Form validation with React Hook Form and Yup
+- Responsive design with Tailwind CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ensure you have Node.js installed, then follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1.  bashCopy codegit clone https://github.com/amccormack92/react-wizard-example.git
+2.  bashCopy codenpm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Usage
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To start the development server:
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  bashCopy codenpm run dev  `
+
+Open your browser and navigate to http://localhost:5173 to view the app.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework.
+- **React Hook Form**: Performant, flexible, and extensible forms with easy-to-use validation.
+- **Yup**: JavaScript schema builder for value parsing and validation.
+- **Open Brewery DB API**: Free and open-source API for brewery data.
