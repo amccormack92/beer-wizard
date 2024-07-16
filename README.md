@@ -1,6 +1,6 @@
 # React Beer Onboarding Widget
 
-This project is a React-based onboarding widget designed to showcase skills in React, TypeScript, and Tailwind CSS. The widget allows users to go through a multi-step process, selecting their beer preferences and getting a promo for a partner brewery. This project is designed for a GitHub portfolio.
+This project is a React-based onboarding widget designed to showcase skills in React, TypeScript, and Tailwind CSS. The widget allows users to go through a multi-step process, selecting their beer preferences and getting a promo for a partner brewery. 
 
 ## Features
 
@@ -15,14 +15,14 @@ This project is a React-based onboarding widget designed to showcase skills in R
 
 Ensure you have Node.js installed, then follow these steps:
 
-1.  bashCopy codegit clone https://github.com/amccormack92/react-wizard-example.git
-2.  bashCopy codenpm install
+1.  ```git clone https://github.com/amccormack92/react-wizard-example.git```
+2.  ```npm install```
 
 ## Usage
 
 To start the development server:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  bashCopy codenpm run dev  `
+```npm run dev```
 
 Open your browser and navigate to http://localhost:5173 to view the app.
 
