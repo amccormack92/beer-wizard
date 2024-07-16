@@ -1,14 +1,14 @@
 import BeerPreferences from '../components/BeerPreferences';
 import Confirmation from '../components/Confirmation';
 import OnBoardingComponent from '../components/OnBoardingComponent';
-import RandomBeer from '../components/RandomBeer';
+import PromoBrewery from '../components/PromoBrewery';
 import Welcome from '../components/Welcome';
 import { OnboardingProvider } from '../context/OnboardingContext';
 
 const steps = [
     { title: 'Welcome', component: <Welcome /> },
     { title: 'Beer Preferences', component: <BeerPreferences /> },
-    { title: 'Random Beer Suggestion', component: <RandomBeer /> },
+    { title: 'Random Beer Suggestion', component: <PromoBrewery /> },
     { title: 'Confirmation', component: <Confirmation /> },
   ];
 const OnboardingPage = () => {
