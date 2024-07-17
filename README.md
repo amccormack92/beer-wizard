@@ -1,10 +1,10 @@
-# React Beer Onboarding Widget
+# React Beer Wizard
 
-This project is a React-based onboarding widget designed to showcase skills in React, TypeScript, and Tailwind CSS. The widget allows users to go through a multi-step process, selecting their beer preferences and getting a promo for a partner brewery.
+This project is a React-based wizard designed to showcase skills in React, TypeScript, and Tailwind CSS. The widget allows users to go through a multi-step process, selecting their beer preferences and getting a promo for a partner brewery.
 
 ## Features
 
-- Multi-step onboarding process
+- Multi-step wizard process
 - Beer preferences selection with images
 - Promo for a partner brewery using the Open Brewery DB API
 - State management with Context API
